@@ -12,3 +12,5 @@ def data(request):
     return render(request, 'main/data.html')
 def test(request):
     return render(request, 'main/test.html')
+def news (request):
+    return render(request, 'DJ03/news.html')

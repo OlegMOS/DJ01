@@ -7,5 +7,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('', views.index, name='home'), path('data', views.data, name='page3'), path('test', views.test, name='page4'),
-    path('blok', views.blok, name='page2')
+    path('blok', views.blok, name='page2'), path('DJ03/news', views.news, name='news')
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
