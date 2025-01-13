@@ -1,8 +1,5 @@
-from django.contrib.admin.templatetags.admin_list import admin_actions
 from django.contrib.auth.models import User
 from django.db import models
-
-# Create your models here.
 
 class News_post(models.Model):
     title = models.CharField('Название новости', max_length=50)
